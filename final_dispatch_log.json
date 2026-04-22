@@ -1,0 +1,26 @@
+[
+    {
+        "email": "alice@example.com",
+        "status": "sent",
+        "timestamp": "2026-04-22T20:01:39.446880Z",
+        "error_reason": null
+    },
+    {
+        "email": "bob@example.com",
+        "status": "sent",
+        "timestamp": "2026-04-22T20:01:39.448563Z",
+        "error_reason": null
+    },
+    {
+        "email": "diana@example.com",
+        "status": "sent",
+        "timestamp": "2026-04-22T20:01:40.464654Z",
+        "error_reason": null
+    },
+    {
+        "email": "charlie-error@example.com",
+        "status": "failed",
+        "timestamp": "2026-04-22T20:01:44.495204Z",
+        "error_reason": "Remote SMTP Server Refused Connection"
+    }
+]
