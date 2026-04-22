@@ -55,4 +55,13 @@ An end-to-end recruitment engine designed to parse complex resumes, rank candida
     python src/email_service.py
     ```
 
----
+## 🏗️ System Evolution
+
+### V1: Initial Implementation (`src/email_service.py`)
+* Designed for rapid deployment to meet project milestones.
+* Uses asynchronous semaphores for basic concurrency.
+
+### V2: Production-Ready Refactor (`src/email_system.py` & `src/templates.py`)
+* **Queue-Based Architecture:** Implements an `asyncio.Queue` with multiple worker consumers to decouple data ingestion from processing.
+* **Template Validation:** A dedicated `TemplateManager` uses Regex to auto-discover placeholders and validate user data before queuing.
+* **Resilient Lifecycle:** Advanced retry logic with exponential backoff and real-time incremental logging to ensure no data loss during system interruptions.
