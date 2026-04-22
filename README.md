@@ -1,6 +1,6 @@
 # AI-Powered Recruitment & Automated Dispatch System
 
-An end-to-end recruitment engine designed to parse complex resumes, rank candidates based on semantic relevance, and dispatch personalized, high-concurrency automated emails.
+An end-to-end recruitment engine designed to parse complex resumes, rank candidates based on semantic relevance, and dispatch personalized, automated emails.
 
 ## 🚀 Key Features
 
