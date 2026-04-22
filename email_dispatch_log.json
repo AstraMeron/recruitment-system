@@ -1,0 +1,26 @@
+[
+    {
+        "email": "alice@example.com",
+        "status": "sent",
+        "timestamp": "2026-04-22T16:37:53.089566Z",
+        "error_reason": null
+    },
+    {
+        "email": "bob@example.com",
+        "status": "sent",
+        "timestamp": "2026-04-22T16:37:53.089683Z",
+        "error_reason": null
+    },
+    {
+        "email": "merontilahunn@gmail.com",
+        "status": "sent",
+        "timestamp": "2026-04-22T16:37:53.091132Z",
+        "error_reason": null
+    },
+    {
+        "email": "charlie@error.com",
+        "status": "failed",
+        "timestamp": "2026-04-22T16:37:56.116957Z",
+        "error_reason": "SMTP Server Timeout"
+    }
+]
