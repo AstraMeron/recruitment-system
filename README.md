@@ -20,7 +20,7 @@ An end-to-end recruitment engine designed to parse complex resumes, rank candida
 - **Language:** Python 3.10+
 - **Parsing:** `pdfplumber`, `re`, `spaCy`
 - **Ranking:** `sentence-transformers`, `scikit-learn`
-- **Async/Email:** `asyncio`, `Jinja2`
+- **Async/Email:** `asyncio`, 
 
 ## 📦 Installation & Setup
 
